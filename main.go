@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	//1
 	http.HandleFunc("/file/upload", handler.UploadHandler)
 	http.HandleFunc("/file/upload/suc", handler.UploadSucHandler)
 	http.HandleFunc("/file/meta", handler.GetFileMetaHandler)
