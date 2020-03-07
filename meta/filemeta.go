@@ -4,7 +4,7 @@ import (
 	mydb "awesomeProject/db"
 )
 
-//FileMeta: 定义文件结构的属性
+//FileMeta: 定义文件结构属性
 type FileMeta struct {
 	FileMD5   string //MD5作为文件ID
 	FileName  string //文件名
